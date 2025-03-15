@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { myContext } from "../Context/ThemeContext";
 
-const CartPage = () => {
+const CarttPage = () => {
   const { cart } = useContext(myContext);
   console.log(cart);
   return (
@@ -18,4 +18,4 @@ const CartPage = () => {
   );
 };
 
-export default CartPage;
+export default CarttPage;
