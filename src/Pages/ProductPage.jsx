@@ -6,7 +6,6 @@ import { myContext } from "../Context/ThemeContext";
 const ProductPage = () => {
   const { id } = useParams();
   const [loading, setLoading] = useState(true);
-  const [product, setProduct] = useState(null);
   const { addToCart, removeProduct, updateCart} = useContext(myContext);
 
   useEffect(() => {
